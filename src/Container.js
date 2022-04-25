@@ -1,4 +1,5 @@
-import Presentacional from './Presentacional'
+import ItemCount from './ItemCount'
+
 
 
 const Container = () => {
@@ -6,7 +7,7 @@ const Container = () => {
     const Usuarios = ["Juan","Nacho","Tomas"]
     
     return (
-    <Presentacional Usuarios={Usuarios}/>
+    <ItemCount Usuarios={Usuarios}/>
   )
 }
 

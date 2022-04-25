@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const Presentacional = (props) => {
+const ItemCount = () => {
   
     const resultado = useState(0)
 
@@ -26,11 +26,11 @@ const Presentacional = (props) => {
     <div>
         <h1>Contador={contador}</h1>
         <button onClick={handleClick}>Sumar</button>
-        <button onClick={handleClick2}>Restar</button>
+        <button onClick={handleClick2}>Restars</button>
     
 
     </div>
   )
 }
 
-export default Presentacional
+export default ItemCount

@@ -3,7 +3,8 @@ import Header from "./Header"
 import Footer from "./Footer"
 import Main from "./Main"
 import ItemListConteiner from "./componentes/ItemListConteiner"
-import Presentacional from "./Presentacional"
+import Presentacional from "./ItemCount"
+import ItemCount from "./ItemCount"
 
 
 const App=()=>
@@ -12,7 +13,7 @@ const App=()=>
     return (
         <>
         <Header/>
-        <Presentacional/>
+        <ItemCount/>
         <ItemListConteiner/>
         <Main/>
         <Footer/>
