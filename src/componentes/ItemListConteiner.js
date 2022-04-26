@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import ItemList from './ItemList'
 
+const ItemListConteiner = () => {
+    
+ 
 
-const ItemListConteiner = (greeting) => {
-    
-    
     return (
     
-    <div>BIENVENIDOS!</div>
-    
+    <div>BIENVENIDOS!
+      <ItemList/>
+    </div>
+     
   )
 }
 
