@@ -1,8 +1,11 @@
 import React from 'react'
+import ItemDetailContainer from './componentes/ItemDetailContainer'
 
 const Main = () => {
   return (
-    <main>Main</main>
+    <main>Main
+    <ItemDetailContainer/>
+    </main>
   )
 }
 
