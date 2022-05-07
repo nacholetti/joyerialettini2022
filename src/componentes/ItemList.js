@@ -1,19 +1,22 @@
 
 import React from 'react'
+import Item from './Item'
 
 
 
 
-const ItemList = () => {
+const ItemList = ({productos}) => {
 
-    
   
     return (
-    <article>
-      <h3>Titulo</h3>
-      <p>Precio:$0</p>
-      <button>Comprar</button>
-    </article>
+
+    <section className='card-container'>
+      {productos.map(producto=>{
+        return(
+          <Item key={producto.id} producto={producto}/>
+        )
+      })}
+    </section>
   )
 }
 

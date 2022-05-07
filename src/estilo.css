@@ -41,3 +41,32 @@ nav a{
     text-decoration: none;
     color: black;
 }
+
+.card-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1rem;
+    
+    
+}
+.Card
+{
+    padding: 1rem;
+    box-shadow:  1px 1px 3px rgba(141, 14, 14, 0.3);
+    transition: all 0.3s;
+    border-radius: 3px;
+    z-index: 1;
+    
+    
+  
+}
+.Card img
+{
+    width: 100%;
+    
+}
+img:hover
+{
+    transform: scale(1.1);
+}
